@@ -8,6 +8,7 @@ formsubmit.addEventListener('click',(event)=>
     const userAgeinput=Age.value
     const usergenderinput=gender.value
     var bmiCategorycalculated
+    bmiexplaination.classList.remove('text-center');
     var userheightinmeter=userheightinput/100
     let remark = "";
 
